@@ -1,3 +1,27 @@
+# IMPORTANT
+.htaccess file were removed while uploading to github so please add .htaccess file to
+
+## 1. php-todo/.htaccess
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^$ public/ [L]
+  RewriteRule (.*) public/$1 [L]
+</IfModule>
+
+## 2. php-todo/public/.htaccess
+<IfModule mod_rewrite.c>
+  Options -Multiviews
+  RewriteEngine On
+  RewriteBase /php-todo/public
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule  ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>
+
+Then you will be able to run the code in yout localhost
+XAMPP server was used with Linux Ubuntu oprationg system
+
+
 # ToDo App made with PHP
 ToDo App
 
