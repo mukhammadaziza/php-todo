@@ -1,6 +1,5 @@
 
 
-Then you will be able to run the code in yout localhost
 XAMPP server was used with Linux Ubuntu oprationg system
 
 
