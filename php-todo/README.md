@@ -1,4 +1,4 @@
-# ToDo Aapp made with PHP
+# ToDo App made with PHP
 ToDo App
 
 ### Framework contains these core classes
