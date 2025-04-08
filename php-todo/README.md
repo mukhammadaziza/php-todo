@@ -1,6 +1,6 @@
 
 
-XAMPP server was used with Linux Ubuntu oprationg system
+XAMPP server was used with Linux Ubuntu operationg system
 
 
 # ToDo App made with PHP
