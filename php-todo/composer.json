@@ -1,0 +1,17 @@
+{
+    "name": "mukhammadaziz/php-todo",
+    "authors": [
+        {
+            "name": "Mukhammadaziz",
+            "email": "muazizabd@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Src\\": "Src/"
+            }
+    },
+
+    "require": {}
+}
