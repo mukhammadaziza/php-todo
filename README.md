@@ -4,15 +4,15 @@ https://github.com/mukhammadaziza/mvc_framework
 Email: muazizabd@gmail.com
 
 # IMPORTANT
-.htaccess files were added make sure you have them if not then add .htaccess file to
-1. php-todo/.htaccess
+.htaccess files were added make sure you have them if not then add .htaccess file to <br>
+1. php-todo/.htaccess <br>
    <IfModule mod_rewrite.c>
       RewriteEngine on
       RewriteRule ^$ public/ [L]
       RewriteRule (.*) public/$1 [L]
     </IfModule>
 
-2. php-todo/public/.htaccess
+2. php-todo/public/.htaccess <br>
    <IfModule mod_rewrite.c>
       Options -Multiviews
       RewriteEngine On
